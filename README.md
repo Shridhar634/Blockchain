@@ -23,6 +23,23 @@ C) 1> For UI we prefered React js for web applicatiopn for development of dApp.
                           
  #In feedback management use case whole blockchain data is concerned with teacher's perspective .So at the time of accesing network
   data availability is equal for all teachers and staffs.
+  
+  Installation:-
+         1)Node.js
+         2)Express.js
+         3)Truffle (v5.0.19)
+         4)geth (v1.9.13)
+         5)react js
+         6)ganache
+         7)After all installation just 'npm install' in working project directory
+         
+    #for genesis block:--'geth init genesis.json --datadir "blockchain"'
+    #for starting blockchain network:'--geth --datadir "blockchain" --rpc --rpcapi "eth,web3,miner,admin,personal,net" --rpccorsdomain "*" --nodiscover --networkid 12345 --allow-insecure-unlock'
+    #for geth JSON rpc:-geth attach  rpc:'network URL' 
+    #for we application:- npm start
+    #for SMTP server:- seaarch server.js in Project and give node server.js
+     
+  
                           
  
  
