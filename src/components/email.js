@@ -41,8 +41,8 @@ let transporter = nodemailer.createTransport({
           }
 });
 
-var from_ = 'sharrynagar1@gmail.com'
-//var to_ = 'preetisnagarkar@gmail.com'
+var from_ = 'user@gmail.com'
+
 var key;
 var password;
 
